@@ -1,6 +1,6 @@
 {
   "name": "manager",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
@@ -10,6 +10,7 @@
     "istanbul-lib-hook": "^1.0.5",
     "react": "^16.0.0-alpha.6",
     "react-native": "0.43.3",
+    "react-native-cli": "^2.0.1",
     "react-redux": "^5.0.4",
     "redux": "^3.6.0"
   },
