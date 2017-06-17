@@ -23,7 +23,7 @@ componentWillMount(){
       <Provider store={createStore(reducers)} >
         <View>
           <Text>
-          Hello!
+          Hello Dude!
           </Text>
         </View>
       </Provider>
