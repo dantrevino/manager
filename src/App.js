@@ -6,20 +6,20 @@ import firebase from 'firebase';
 import reducers from './reducers';
 
 class App extends Component {
-componentWillMount(){
+componentWillMount() {
   const config = {
-    apiKey: "AIzaSyBEx-HK_dZfF2LvSfNreM3f_bY6z0Elq1M",
-    authDomain: "manager-883c1.firebaseapp.com",
-    databaseURL: "https://manager-883c1.firebaseio.com",
-    projectId: "manager-883c1",
-    storageBucket: "manager-883c1.appspot.com",
-    messagingSenderId: "945207180756"
+    apiKey: 'AIzaSyBEx-HK_dZfF2LvSfNreM3f_bY6z0Elq1M',
+    authDomain: 'manager-883c1.firebaseapp.com',
+    databaseURL: 'https://manager-883c1.firebaseio.com',
+    projectId: 'manager-883c1',
+    storageBucket: 'manager-883c1.appspot.com',
+    messagingSenderId: '945207180756'
   };
   firebase.initializeApp(config);
 }
 
   render() {
-    return(
+    return (
       <Provider store={createStore(reducers)} >
         <View>
           <Text>
