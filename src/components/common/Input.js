@@ -7,10 +7,11 @@ const { inputStyle, labelStyle, containerStyle } = styles;
   return (
     <View style={containerStyle}>
       <Text style={labelStyle}>{label}</Text>
-      <TextInput style={inputStyle}
+      <TextInput
+        style={inputStyle}
         value={value}
         onChangeText={onChangeText}
-        autoCorrect = {false}
+        autoCorrect={false}
         placeholder={placeholder}
         secureTextEntry={secureTextEntry}
       />
